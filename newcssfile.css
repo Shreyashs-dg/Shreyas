@@ -1,0 +1,66 @@
+h1{
+    color: burlywood;
+}
+#one{
+    background-color: rgb(64, 241, 241);
+    color: black;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    border: 2px solid rgb(242, 235, 235);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /*animation-name: newanimate;
+    animation-duration: 0.2s;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate;*/
+    animation: newanimate 0.2s infinite alternate;
+    
+    
+}
+@keyframes myanimate {
+    from{background-color: rgb(64, 241, 241);}
+    to{background-color: red;}
+    
+    
+}
+@keyframes newanimate{
+    from{ top:0px; }
+    to{ top:200px; }
+    from{background-color: rgb(64, 241, 241);}
+    to{background-color: red;}    
+
+}
+body{
+    background-color: black;
+}
+
+#two{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid rgb(42, 79, 165);
+    border-top: 10px solid  rgb(17, 15, 17);
+    animation: loder 1s ease-in-out infinite;
+    position: relative;
+    left: 700px;
+    top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes loder {
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg);}
+}
+h2{
+    line-height: 10px;
+    text-transform: capitalize;
+}
+
+#three{
+    height: 100px;
+    width: 100px;
+    padding: 1px 2px 3px 4px;
+    margin: 10px 10px 10px 10px;
+    background-color: aquamarine;
+}
